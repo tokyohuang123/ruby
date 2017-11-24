@@ -1,7 +1,7 @@
 require 'mail'  
   
 smtp = { :address => 'smtp.mxhichina.com', :port => 25, :domain => 'yingfei.onaliyun.com', \
-    :user_name => 'fuwu@yingfei.onaliyun.com', :password => 'Ishangzu365',\
+    :user_name => 'fuwu@yingfei.onaliyun.com', :password => '*********',\
     :enable_starttls_auto => true, :openssl_verify_mode => 'none' }  
 Mail.defaults { delivery_method :smtp, smtp }  
 mail = Mail.new do  
